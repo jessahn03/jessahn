@@ -128,6 +128,14 @@ body {
   padding-top: 90px;
 }
 
+#education {
+  padding-top: 90px;
+}
+
+#projects {
+  margin-top: 90px;
+}
+
 #education .education {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -139,7 +147,7 @@ body {
 
 @media (max-width: 768px) {
   #home img {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     width: 200px;
   }
   #home .col-md-8 {
@@ -156,4 +164,8 @@ body {
   #home h1 {
     font-size: 25px;
   }
+}
+
+mark {
+  background-color: #fae588;
 }
