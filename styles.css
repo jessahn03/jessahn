@@ -48,7 +48,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar {
   width: 7px;
-  /* background-color: #F5F5F5; */
 }
 
 body::-webkit-scrollbar-thumb {
@@ -118,9 +117,11 @@ body {
   border-radius: 5px;
   display: none;
 }
+
 #projects .card:hover .card-body {
   display: block;
   background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
 }
 
 #about {
